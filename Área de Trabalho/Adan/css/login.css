@@ -26,12 +26,13 @@
     0 0 0.3rem 0 #8800cc;
 
     overflow: hidden;
-    transition: 0.2s;
+    
   }
   
 .neon_button:hover{
-  color: #8800cc;
-  background: #2196f3;
-  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  color: black;
+  background: #8800cc;
+  box-shadow: 0 0 10px #8800cc;
   transition-delay: 0.2s;
+  transform: translateX(10px);
 }

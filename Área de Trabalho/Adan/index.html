@@ -17,6 +17,9 @@
 
   <form class="login-form">
 
+    <div class="quadro">
+
+    </div>
     <div class="login__header">
       <img src="/images/icon-logo.png" alt="icon">
     </div>
@@ -24,6 +27,23 @@
     <button type="submit" class="neon_button">Play</button>
 
   </form>
+
+  <script type="text/javascript" src="js/vanilla-tillt.js"></script>
+
+  <script>
+    VanillaTilt.init(document.querySelector(".neon_button"), {
+      max: 45,
+      speed: 500
+    })    
+  </script>
+
+<script>
+  VanillaTilt.init(document.querySelector(".login__header"), {
+    max: 45,
+    speed: 500
+  })    
+</script>
+
 
 </body>
 
